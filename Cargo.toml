@@ -13,10 +13,10 @@ version = "1.0.0"
 
 [dependencies]
 rand = "0.7.3"
-tokio = { version = "0.2.11", features = ["time"], optional = true }
+tokio = { version = "^1.0.0", features = ["time"], optional = true }
 
 [dev-dependencies]
-tokio = { version = "0.2.11", features = ["macros", "rt-threaded"] }
+tokio = { version = "^1.0.0", features = ["macros", "rt-multi-thread"] }
 futures = "0.3.1"
 
 [features]
