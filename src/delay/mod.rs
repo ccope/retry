@@ -167,7 +167,7 @@ impl Iterator for Fixed {
 impl From<Duration> for Fixed {
     fn from(delay: Duration) -> Self {
         Self {
-            duration: delay.into(),
+            duration: delay
         }
     }
 }
